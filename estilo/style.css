@@ -1,4 +1,63 @@
 @charset "UTF-8";
 body {
    background-color: aqua;
+} 
+* {
+   margin: 0px;
+   padding: 0px;
+
 }
+html,body {
+   min-height: 100%vh;
+   background-color: aquamarine;
+}
+header {
+   background-color: bisque;
+  
+   text-align: center;
+}
+header >h1 {
+   padding: 50px;
+   font-variant: small-caps;
+
+}
+
+header > p {
+   padding-bottom: 50%;
+}
+a {
+   color:blue;
+   text-decoration: none;
+   font-weight: bolder;
+}
+header
+ a :hover ,footer a:hover{
+   text-decoration: underline;
+   
+ }
+ section {
+  
+   padding-top: 10vh;
+   padding-bottom: 2vh;
+   line-height: 2em;
+   padding-left: 30px;
+ }
+ section .normal {
+   background-color: aquamarine;
+   color: black;
+ }
+ section.imagem {
+   background-color: bisque;
+ }
+ section.imagem > p {
+   width: 400px;
+   background-color: aquamarine;
+ }
+ footer {
+   background-color:bisque;
+  color: blue;
+  font-weight: bolder;
+   text-align:center ;
+   padding: 10px;
+
+ }
